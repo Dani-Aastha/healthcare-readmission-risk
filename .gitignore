@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw + derived data: regenerate via `python src/data_prep.py` after
+# downloading (see README) -- not committed to keep the repo small and
+# because redistributing the raw dataset isn't necessary (it's public
+# and downloadable from UCI directly).
+data/*.csv
+data/*.zip
